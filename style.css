@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    min-height: 24.375rem;
+    background-image: url("./assets/salgados-para-lanchonete.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.title {
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+#title-2 {
+    margin-top: 3rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    background-color: #ffd000;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 1px -1px 2px black;
+    box-shadow: 1px -1px 2px black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: #ff1e00d2;
+    padding-bottom: 5rem;
+}
+.grupo {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.itens {
+    width: 25%;
+    height: 20rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 1px -1px 2px black;
+}
+#coxinha {
+    background-image: url("./assets/coxinha.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#risole {
+    background-image: url("./assets/risole.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#enroladinho {
+    background-image: url("./assets/enroladinho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bolo {
+    background-image: url("./assets/bolo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#empada {
+    background-image: url("./assets/empada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#torta {
+    background-image: url("./assets/torta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tortilete {
+    background-image: url("./assets/tortilete.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pao-de-queijo {
+    background-image: url("./assets/pao-de-queijo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cafe {
+    background-image: url("./assets/cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#coca {
+    background-image: url("./assets/coca.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fanta {
+    background-image: url("./assets/fanta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#guarana {
+    background-image: url("./assets/guarana.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sprite {
+    background-image: url("./assets/sprite.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#laranja {
+    background-image: url("./assets/laranja.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#uva {
+    background-image: url("./assets/uva.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#agua {
+    background-image: url("./assets/agua.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+#social {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ff1e00d2;
+}
+#social a {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 45px;
+    padding: 1rem;
+}
+#copyright {
+    height: 4.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff1e00d2;
+}
+#copyright p {
+    color: black;
+}
+#copyright span {
+    color: #ffd000;
+}
+
+@media screen and (max-width: 425px) {
+    .grupo {
+        gap: 5rem;
+    }
+    .itens {
+        width: 100%;
+    }
+}
+
+@media (min-width:426px) and (max-width: 768px) {
+    .grupo {
+        gap: 6rem;
+    }
+    .itens {
+        width: 40%
+    }
+}
